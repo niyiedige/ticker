@@ -11,7 +11,7 @@ def output(output):
     except KeyError:
         pass
     ws=wb.create_sheet("ticker")
-    for col in ws.iter_cols(min_row=1, max_col=5):
+    for col in ws.iter_cols(min_row=1, max_col=4):
         for cell in col:
             cell.value=title.pop()
     rownum=1

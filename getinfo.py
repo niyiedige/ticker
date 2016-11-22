@@ -55,8 +55,8 @@ def getinfo(datestructure_dic):
 
                 else:
                     scarpeinfo.append('Not available')
-            temp1=seperatestr(scarpeinfo[3])
-            scarpeinfo[3]=temp1[0]
+            temp1=seperatestr(scarpeinfo[2])
+            scarpeinfo[2]=temp1[0]
             scarpeinfo.append(temp1[1])
         joblist.append(scarpeinfo)
     return joblist
